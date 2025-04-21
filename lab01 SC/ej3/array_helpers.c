@@ -10,7 +10,7 @@ unsigned int array_from_file(int array[],
     FILE*archivo;
     archivo = fopen(filepath,"r");
 
-    fscanf(archivo , "%u", &max_size);
+    fscanf(archivo , "%u", &max_size);//ola
 
     for (unsigned int i = 0u; i < max_size; ++i)
     {
